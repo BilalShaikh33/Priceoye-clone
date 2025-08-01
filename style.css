@@ -1,0 +1,466 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+.navbar {
+    display: flex;
+    background-color: rgb(58, 171, 247);
+    justify-content: space-between;
+
+}
+
+.search {
+    align-content: center;
+
+}
+
+.inputtag {
+    height: 33px;
+    width: 360px;
+    border-radius: 3px;
+    border: 1px solid white;
+
+}
+
+.headerbuttons {
+    display: flex;
+    justify-content: flex-end;
+
+    width: 200px;
+    padding: 20px;
+    /* border: 2px solid black; */
+    /* margin: 3px;
+    margin-right: 10px;
+   
+ 
+    margin-top: 20px; */
+}
+
+/* .headerbutton2{
+
+ height: 33px;
+margin-top: 15px;
+
+
+
+} */
+.but1 {
+    height: 34px;
+    width: 90px;
+    color: rgb(58, 171, 247);
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.but2 {
+    margin: 3px;
+    width: 90px;
+    height: 34px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(58, 171, 247);
+    border: 1px solid white;
+
+}
+
+.but1:hover {
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(58, 171, 247);
+    border: 1px solid white;
+}
+
+.but2:hover {
+    color: rgb(58, 171, 247);
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+
+.navbar2 {
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+    height: 70px;
+
+}
+
+
+
+.img1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 60px;
+    text-align: center;
+}
+
+
+.mainpiccontainer {
+    /* border: 2px solid black; */
+    height: 350px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+
+}
+
+
+.mainpic {
+    width: 100%;
+    height: 330px;
+    display: block;
+
+}
+
+.itemssection {
+    background-image: url(./mainpics/section-earbuds-bg-md.png);
+    display: block;
+    height: 650px;
+    width: 100%;
+    /* border: 3px solid black; */
+    padding-top: 60px;
+    padding-left: 20px;
+    display: block;
+    margin-bottom: 50px;
+
+
+}
+
+.itemsecheading {
+    color: white;
+}
+
+.itemsecbuttonandheading {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 20px;
+}
+
+.itemsecbutton {
+    margin-right: 45px;
+    width: 80px;
+    height: 40px;
+    border-radius: 2px;
+}
+
+
+.itemsecbutton:hover {
+    background-color: #000000;
+    color: white;
+    border: hidden;
+    border-radius: 3px;
+    transition: 0.2s;
+
+}
+
+
+
+.allitemsec {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.airbuditems {
+    /* display: flex; */
+    height: 250px;
+    width: 170px;
+    border: 2px solid white;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+
+
+}
+
+.airbuditems:hover {
+    background-color: rgb(209, 207, 207);
+    transition: 0.2s;
+    border: hidden;
+}
+
+
+.item1img {
+    display: flex;
+    justify-content: center;
+    /* margin-right: 30px; */
+
+
+}
+
+.item1img1 {
+    margin-top: 20px;
+
+
+}
+
+.rs {
+    margin-top: 20px;
+}
+
+
+.mainpiccontainer2 {
+    /* border: 2px solid black; */
+    height: 220px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.mainpic2 {
+    height: 220px;
+    width: 100%;
+}
+
+
+.itemssection2 {
+    background-image: url(./mainpics/section-smart-watches-bg-md.png);
+    display: block;
+    height: 650px;
+    width: 100%;
+    /* border: 3px solid black; */
+    padding-top: 60px;
+    padding-left: 20px;
+    display: block;
+    margin-bottom: 50px;
+}
+
+/* #fce55e; */
+
+
+.sortprizecontainer {
+    height: 260px;
+    border: 2px solid #fce55e;
+    background-color: #fce55e;
+}
+
+.sortprizeheading {
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.sortprizebuttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* height: auto;
+    width: auto; */
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.sortprizebutton1 {
+    height: 50px;
+    width: 240px;
+    border-radius: 20px;
+    background-color: #f90390;
+    border: 2px #f90390;
+    color: white;
+    margin-top: 20px;
+}
+
+.sortprizebutton1:hover {
+    background-color: #fd5eb8;
+    transition: 0.2s;
+}
+
+.sortbrandsbuttons {
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+}
+
+
+
+
+.sortbrandsimgcontainer {
+    background-color: #000000;
+    align-content: center;
+    height: 120px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.sortbrandsimgcontainer:hover {
+    background-color: white;
+    border: 2px solid white;
+    transition: 0.2s;
+
+}
+
+
+
+.shopmore {
+
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+    /* border: 2px solid black; */
+    margin-bottom: 12px;
+}
+
+.shopmoreheading {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.shopmoreoptions {
+    background-color: #f9dcff;
+    height: 200px;
+    /* border: 2px solid black; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.shopmoreoptionsitems {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid black; */
+    height: 110px;
+    width: 700px;
+
+}
+
+.shopmoreoptionsitem1 {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 110px;
+    height: 110px;
+    border: 1px solid #8804a6;
+    border-radius: 10px;
+
+}
+
+
+.shopmoreitemimg1 {
+    width: 107px;
+    height: 70px;
+    /* border: 2px solid black; */
+    background-color: white;
+}
+
+.shopmoreitemimg1img {
+
+    margin-left: 15px;
+}
+
+.shopmoreitemimg1heading {
+    /* border: 2px solid black; */
+    height: 42px;
+    background-color: #8804a6;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicescontainer {
+    /* border: 2px solid black; */
+    height: 150px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.servicesitemcontainer {
+    /* border: 2px solid black; */
+    height: 110px;
+    width: 100%;
+    margin-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.servicesbox1 {
+    /* border: 2px solid black; */
+    height: 110px;
+    width: 115px;
+    justify-items: center;
+
+
+}
+
+.servicesbox2{
+      height: 110px;
+    width: 115px;
+    justify-items: center;
+    margin-right: 20px;
+
+}
+
+.servicesbox1img {
+    margin-left: 25px;
+
+}
+
+
+.footercontainer {
+    height: 300px;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: #55c2dd;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.footercontainer1 {
+    /* border: 2px solid black; */
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+}
+
+.footersmallbuttons a {
+    margin: 3px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footerheadings {
+    color: white;
+    margin: 27px;
+}
+
+.footercontainer3 {
+    /* border: 2px solid black; */
+    width: 250px;
+    height: 200px;
+    margin-right: 40px;
+}
+
+
+.footergoogleplayimg {
+    margin-top: 20px;
+}
+
+
+.webcontainer {
+    max-width: 100%;
+    overflow-x: hidden;
+}
